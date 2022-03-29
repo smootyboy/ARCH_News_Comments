@@ -1,0 +1,32 @@
+Commenting system,Snipit,Regex,Target
+Disqus,data-disqus-identifier,(?i)data-disqus-identifier,https://help.disqus.com/en/articles/1717082-what-is-a-disqus-identifier
+Disqus,disqus.com/embed.js,(?i)disqus\.com\/embed\.js,Disqus embed code
+Disqus,disqus_thread,(?i)disqus_thread,Comment thread
+Coral,coral_talk_stream,(?i)coral_talk_stream,
+Coral,talk-embed-stream,(?i)talk-embed-stream,
+Coral,coralcomments.url,(?i)coralcomments\.url,
+Coral,coral_thread,(?i)coral_thread,
+Cackle,cackle.me/widget.js,(?i)cackle\.me\/widget\.js,
+Echo,js-kit.com/comments.js,(?i)js-kit\.com\/comments\.js,
+Facebook Comments,fbComments,(?i)fbComments,
+Facebook Comments,fb-comments,(?i)fb-comments,
+Facebook Comments,fb:comments,(?i)fb:comments,
+Insticator Commenting,insticator-commenting,(?i)insticator-commenting,
+Livefyre,cdn.livefyre.com/Livefyre.js,(?i)cdn\.livefyre\.com\/Livefyre\.js,
+ViaFoura,viafoura,(?i)viafoura,Name
+ViaFoura,viafouraComments,(?i)viafouraComments,
+ViaFoura,livecomments.viafoura.co,(?i)livecomments\.viafoura\.co,
+ViaFoura,viafoura-comments,(?i)viafoura-comments,
+Vuukle,vuukle-comments,(?i)vuukle-comments,
+Vuukle,js-vuukle,(?i)js-vuukle,
+Vuukle,vuukle ,(?i)vuukle,Name
+OpenWeb,data-spotim-module,(?i)data-spotim-module,
+OpenWeb,spotim-launcher,(?i)spotim-launcher,
+OpenWeb,launcher.spot.im,(?i)launcher\.spot\.im,
+Commentics,cmtx_comments,(?i)cmtx_comments,
+Echo/JS-Kit/Haloscan,js-kit.com/comments.js,(?i)js-kit\.com\/comments\.js,
+Echo/JS-Kit/Haloscan,www.haloscan.com/comments,(?i)www\.haloscan\.com\/comments,
+Hyvor Talk,talk.hyvor.com,(?i)talk\.hyvor\.com,
+Hyvor Talk,hyvor-talk,(?i)hyvor-talk,
+Muut,muut.com/i/*/comments,(?i)muut\.com\/i\/*\/comments,
+Commento,commento.js,(?i)commento\.js,
