@@ -1,4 +1,4 @@
-Commenting system,Snipit,Regex,Target
+Commenting system,Snippet,Regex,Target
 Disqus,data-disqus-identifier,(?i)data-disqus-identifier,https://help.disqus.com/en/articles/1717082-what-is-a-disqus-identifier
 Disqus,disqus.com/embed.js,(?i)disqus\.com\/embed\.js,Disqus embed code
 Disqus,disqus_thread,(?i)disqus_thread,Comment thread
@@ -30,4 +30,21 @@ Hyvor Talk,hyvor-talk,(?i)hyvor-talk,
 Muut,muut.com/i/*/comments,(?i)muut\.com\/i\/*\/comments,
 Commento,commento.js,(?i)commento\.js,
 Gigya,gigyaComments,(?i)gigyaComments,Comment section wrapper
-Gigya,gigya-comment,(?i)gigya-comment,	
+Gigya,gigya-comment,(?i)gigya-comment,
+Facebook Comments,facebook_comment,(?i)facebook_comment,tag id variable
+Facebook Comments,fb-comment,(?i)fb-comment,tag class variable
+Echo JS-Kit Haloscan,echo_container_pb_comments,(?i)echo_container_pb_comments,
+Echo JS-Kit Haloscan,echo-counter,(?i)echo-counter,comment counter
+Livefyre,fyre-comment-stream,(?i)fyre-comment-stream,Comment stream
+Livefyre,fyre-comment-count,(?i)fyre-comment-count,comment counter
+Facebook Comments,fb_edge_widget_with_comment,(?i)fb_edge_widget_with_comment,comment count widget
+Gigya,ind.gigya.comments,(?i)ind.gigya.comments,Javascript variable
+Gigya,useGigyaCommenting,(?i)useGigyaCommenting,Javascript variable
+Echo JS-Kit Haloscan,js-kit-comments,(?i)js-kit-comments,Class variable
+Echo JS-Kit Haloscan,js-kit.com/comments-data.js,(?i)js-kit\.com\/comments-data\.js,Javascript source
+Livefyre,livefyre-commentcount,(?i)livefyre-commentcount,comment counter class
+Livefyre,livefyre.com/api,(?i)livefyre\.com\/api,API import
+Livefyre,livefyre-comment,(?i)livefyre-comment,Class variable
+Pluck(mirror),pluck/comments/comments.js,(?i)pluck\/comments\/comments\.js,javascript embed
+Gigya,gigyaCommentPlugin,(?i)gigyaCommentPlugin,tag id variable
+Gigya,gigya.com/js/gigya.js,(?i)gigya\.com\/js\/gigya\.js,Javascript embed
