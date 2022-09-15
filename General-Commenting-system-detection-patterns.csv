@@ -2,3 +2,5 @@ Commenting system;Snippet;Regex;Target
 TBD;comment in id variable;"(?i)id=\""[^\""]*comment[^\""]*\""";the term comment being part of an id variable
 TBD;comment in link text;(?i)<a[^<]{0,100}(?!<)>.{0,10}comment.{0,10}<;The term comment being in the text of a link
 TBD;reply in link text;(?i)<a[^<]{0,100}(?!<)>.{0,10}reply.{0,10}<;The term reply being in the text of a link
+TBD;comment in src;(?i)src=\"[^\"]*comment[^\"]*\";The term comment being part of a src variable
+TBD;link to comment section;(?i)href=\"[^\"]*#comment[^\"]*\"; the term #comment being part of a href variable
