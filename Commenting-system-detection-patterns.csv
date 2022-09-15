@@ -37,7 +37,6 @@ Echo JS-Kit Haloscan,echo_container_pb_comments,(?i)echo_container_pb_comments,
 Echo JS-Kit Haloscan,echo-counter,(?i)echo-counter,comment counter
 Livefyre,fyre-comment-stream,(?i)fyre-comment-stream,Comment stream
 Livefyre,fyre-comment-count,(?i)fyre-comment-count,comment counter
-Facebook Comments,fb_edge_widget_with_comment,(?i)fb_edge_widget_with_comment,comment count widget
 Gigya,ind.gigya.comments,(?i)ind.gigya.comments,Javascript variable
 Gigya,useGigyaCommenting,(?i)useGigyaCommenting,Javascript variable
 Echo JS-Kit Haloscan,js-kit-comments,(?i)js-kit-comments,Class variable
@@ -48,3 +47,4 @@ Livefyre,livefyre-comment,(?i)livefyre-comment,Class variable
 Pluck(mirror),pluck/comments/comments.js,(?i)pluck\/comments\/comments\.js,javascript embed
 Gigya,gigyaCommentPlugin,(?i)gigyaCommentPlugin,tag id variable
 Gigya,gigya.com/js/gigya.js,(?i)gigya\.com\/js\/gigya\.js,Javascript embed
+Facebook Comments,FacebookComments,(?i)FacebookComments,tag id variable
