@@ -1,7 +1,7 @@
 Commenting system,Snippet,Regex,Target
 Disqus,data-disqus-identifier,(?i)data-disqus-identifier,https://help.disqus.com/en/articles/1717082-what-is-a-disqus-identifier
 Disqus,disqus.com/embed.js,(?i)disqus\.com\/embed\.js,Disqus embed code
-Disqus,disqus_thread,(?i)disqus_thread,Comment thread
+Disqus,disqus_thread,(?i)id=(?:\"|\')disqus_thread,Comment thread
 Coral,coral_talk_stream,(?i)coral_talk_stream,
 Coral,talk-embed-stream,(?i)talk-embed-stream,
 Coral,coralcomments.url,(?i)coralcomments\.url,
