@@ -1,0 +1,44 @@
+server: # base line is the server adress
+
+  url: "https://jupyter.digitalmethodologies.center/user/b03/files"
+  detection-patterns:  # server url + path to the detections patterns
+    - specific: "/Commenting-system-detection-patterns.csv"
+    - general: "/General-Commenting-system-detection-patterns.csv"
+
+  datasets: # the path divides into the different webspheres
+    spheres:
+      World: "/data/World"
+      German: "/data/German"
+      Dutch: "/data/Dutch"
+
+    results: # for every websphere there is a folder with results e.g. server/world/results/...
+      path: "/results/"
+      system-specific: "-short.csv" # put the commenting system (defined below) before this 
+      system-year-overview: "/results/domain-summary.csv"
+      general-specific: "-domain-summary.csv"
+      general-pattern-year-overview: "/results/snippet-domain-summary.csv"
+
+Commenting-systems:
+  - Disqus
+  - Coral
+  - Cackle
+  - Facebook Comments
+  - Insticator Commenting
+  - Livefyre
+  - ViaFoura
+  - Vuukle
+  - OpenWeb
+  - Commentics
+  - Echo JS-Kit Haloscan
+  - Hyvor Talk
+  - Muut
+  - Commento
+  - Gigya
+  - Pluck(mirror)
+
+General-patterns:
+  - comment in id variable
+  - comment in link text
+  - reply in link text
+  - comment in src
+  - link to comment section
